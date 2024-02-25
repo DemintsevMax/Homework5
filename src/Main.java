@@ -25,6 +25,16 @@ public class Main {
             else if (clientOS==1 && clientDeviceYear>=2015){
             System.out.println("Установите версию приложения для Android по ссылке");
         }
+        System.out.println("Task №3");
+            int year = 2024;
+            if (year>1584) {
+                if ((year%4==0 && year%100!=0) || (year%400==0)) {
+                    System.out.println("Год вискосный");
+                } else {
+                    System.out.println("Год не вискосный");
+                }
+            } else {
+        System.out.println("Такого понятия как високосный год не существовало");}
 
 
 
